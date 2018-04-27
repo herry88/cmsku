@@ -7,4 +7,6 @@ function anti_injection($data){
 }
 
 $username = anti_injection($_POST['username']);
-$password = anti_injection(md5($_POST['password']))
+$password = anti_injection(md5($_POST['password']));
+
+$injeksi_username = anti_injection
